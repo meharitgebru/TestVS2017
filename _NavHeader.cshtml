@@ -1,0 +1,20 @@
+﻿
+<div id="header" class="">
+    <div class="container body-content header-container ">
+        <div class="pull-left d-none d-sm-block ">
+            <img src="~/images/logo.png" alt="logo" />
+        </div>
+        <div class="pull-left d-block d-sm-none">
+            <img src="~/images/logo-sm.png" alt="logo" />
+        </div>
+        
+            <div class=" header-up-right ">
+                <a asp-area="" asp-controller="JAGCNetHome" asp-action="Index"> Home</a> |
+                <a asp-area="" asp-controller="JAGCNetHome" asp-action="Index">Logout</a>
+            </div>
+            <div class="header-bottom-right ">
+                 @User.Identity.Name (@DateTime.Now.ToString("MM/dd/yyyy") )
+            </div>
+            <div class=" "></div>
+    </div>
+</div>
