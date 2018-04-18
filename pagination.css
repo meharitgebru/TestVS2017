@@ -1,0 +1,32 @@
+﻿ul.pagination{
+    margin-bottom:0;
+}
+
+
+.wi-pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+    margin-bottom: 0.1rem;
+}
+
+
+div.dataTables_length label {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+    margin-bottom: 0.1rem;
+}
+
+div.dataTables_length select {
+    width: 75px;
+    display: inline-block
+}
+
+.wms-border{
+    /*border-color: #008000;*/
+}
+
